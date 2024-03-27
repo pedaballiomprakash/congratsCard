@@ -1,0 +1,71 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.congratulations-card-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.student-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50vw;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.name {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: normal;
+}
+.college-paragraph {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.logo-img {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 64px;
+  }
+  .name {
+    font-size: 46px;
+  }
+  .college-paragraph {
+    font-size: 40px;
+  }
+  .logo-img {
+    height: 300px;
+    width: 300px;
+  }
+  .student-container {
+    width: 40%;
+  }
+}
